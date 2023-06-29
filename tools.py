@@ -38,7 +38,7 @@ def scraper():
 
     if contenido != "":
         print("scraper : OK : channels retrieved")
-        print("Canales scrapeados: "+contenido)
+        #print("Canales scrapeados: "+contenido)
     else:
         print("scraper : ERROR : channels could not be retrieved")
         sys.exit(0)
